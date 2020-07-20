@@ -1,0 +1,42 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url("../images/background.jpg");
+    height: 880px;
+    background-size: 100% 100%;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.menu ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 30px;
+    list-style-type: none;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+.search__box {
+    position: relative;
+    top:50px;
+    left: 50px;
+    width: 430px;
+    height: 400px;
+    background-color:white;
+
+}
